@@ -1,6 +1,6 @@
 # CoDesc 
 
-This repository contains the source code and dataset for the paper _"CoDesc: A Large Code–Description Parallel Dataset"_ accepted in Findings of ACL 2021.
+This repository contains the source code and dataset for the paper [_"CoDesc: A Large Code–Description Parallel Dataset"_](http://rifatshahriyar.github.io/files/CoDesc.pdf) from Findings of ACL 2021.
 
 A large dataset of 4.2m Java source code and parallel data of their description from code search, and code summarization studies.
 
