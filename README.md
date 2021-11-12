@@ -77,7 +77,7 @@ The following command preprocesses CoDesc dataset for [CodeSearchNet](https://ar
  ```
 
 ## Preprocess CoDesc for Code Summarization
-The following command preprocesses CoDesc dataset for [NeuralCodeSum](https://arxiv.org/abs/2005.00653) networks.
+The following command preprocesses CoDesc dataset for [NeuralCodeSum](https://aclanthology.org/2020.acl-main.449/) networks.
   ```bash
  python Dataset_Preparation/Preprocess_NCS.py
  ```
