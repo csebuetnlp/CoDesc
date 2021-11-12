@@ -115,6 +115,7 @@ We used the original implementation of Code Summarization of [NeuralCodeSum](htt
 
 
 # Cite this work
+```
 @inproceedings{hasan-etal-2021-codesc,
     title = "{C}o{D}esc: A Large Code{--}Description Parallel Dataset",
     author = "Hasan, Masum  and
@@ -135,6 +136,7 @@ We used the original implementation of Code Summarization of [NeuralCodeSum](htt
     doi = "10.18653/v1/2021.findings-acl.18",
     pages = "210--218",
 }
+```
 
 # Licenses
 Codes, dataset and models from [CodeSearchNet](https://github.com/github/CodeSearchNet.git), and [NeuralCodeSum](https://github.com/wasiahmad/NeuralCodeSum.git) are used with the licenses provided at their respective repositories.   
