@@ -17,6 +17,7 @@ pip install tqdm
 pip install nltk
 pip install prettytable
 pip install torch==1.5.1
+pip install gdown
 
 # download dataset
 mkdir data/
