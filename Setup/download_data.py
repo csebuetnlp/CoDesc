@@ -1,30 +1,29 @@
-from mega import Mega
 import os
+import gdown 
 
 # go to data folder where we will keep the data
 os.chdir('data/')
 
 
 print('Starting download...')
-mega = Mega()
 
-mega.download_url('https://mega.nz/file/x5BQGDCY#LwmKDu5eYNTdG85xrW85jh3gcJvcsBpKwY9ufTFM1vs')  
+gdown.download("https://drive.google.com/uc?id=14t7fYsW0a09mfBmFJhjsZv-3obnLnNmS&export=download&confirm=t", "CoDesc.7z", quiet=False)
 print("CoDesc.7z downloaded")
 os.system("7z x CoDesc.7z")
 
-mega.download_url('https://mega.nz/file/Q4oxQCIb#CT7P5zq1WbiWOLTeafg-mFD2QZEmF1YwZmDhGZkzU90')  
+gdown.download("https://drive.google.com/uc?id=1z1ISkUkNC-ZStMivdU2poXAoh9OjooQw&export=download&confirm=t", "csn_preprocessed_data.7z", quiet=False)
 print("csn_preprocessed_data.7z downloaded")
 os.system("7z x csn_preprocessed_data.7z")
 
-mega.download_url('https://mega.nz/file/t543VCyA#4BLjB28yYNDT9kXBs6NWmY1ADOCMyuvqDXLg9yPhiaI')  
+gdown.download("https://drive.google.com/uc?id=1NKHb_mCH345NXcMFUBw5SxOgki8N5wsO&export=download&confirm=t", "csn_preprocessed_data_balanced_partition.7z", quiet=False)
 print("csn_preprocessed_data_balanced_partition.7z downloaded")
 os.system("7z x csn_preprocessed_data_balanced_partition.7z")
 
-mega.download_url('https://mega.nz/file/45BXRSSb#sj2bSC9AHxralmpAud6Uy1_g6HOFnZq0Dk4pfqiP-1M')  
+gdown.download("https://drive.google.com/uc?id=1bjAkUMBTXs42lXjrDycqdVJYSrDkmirB&export=download&confirm=t", "ncs_preprocessed_data.7z", quiet=False) 
 print("ncs_preprocessed_data.7z downloaded")
 os.system("7z x ncs_preprocessed_data.7z")
 
-mega.download_url('https://mega.nz/file/ZpoBla5a#qeSxMXP6v-2FEI237cIVrFhuqnq5DHh88_EKuReSY3k')  
+gdown.download("https://drive.google.com/uc?id=14nHVljNMb37-tpOW59NaDY26T6z2BcXD&export=download&confirm=t", "original_data.7z", quiet=False) 
 print("original_data.7z downloaded")
 os.system("7z x original_data.7z")
 
