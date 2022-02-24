@@ -1,6 +1,6 @@
 # CoDesc 
 
-This is the public release of code, and data of our paper titled [_"CoDesc: A Large Code–Description Parallel Dataset"_](https://aclanthology.org/2021.findings-acl.18/) accepted in Findings of ACL 2021.
+This is the public release of code, and data of our paper titled [_"CoDesc: A Large Code–Description Parallel Dataset"_](https://aclanthology.org/2021.findings-acl.18/) published in the Findings of ACL 2021.
 
 A large dataset of 4.2m Java source code and parallel data of their description from code search, and code summarization studies.
 
@@ -44,17 +44,17 @@ CoDesc is a noise removed, large parallel dataset of source codes and correspond
 # CoDesc Dataset
 After initial setup described at [Quickstart](#quickstart), our dataset will be downloaded at `data/` folder along with preprocessed data for code search task and code summarization task. We also provide the source datasets here. Following are the links and descriptions of the dataset and preprocessed data.
 
-1. [CoDesc](https://mega.nz/file/x5BQGDCY#LwmKDu5eYNTdG85xrW85jh3gcJvcsBpKwY9ufTFM1vs): This file contains our 4.2m dataset. The details of this dataset is given in our paper as well as in [Dataset Description](https://github.com/code-desc/CoDesc/blob/master/Dataset%20Description.md) page.
+1. [CoDesc](https://drive.google.com/file/d/14t7fYsW0a09mfBmFJhjsZv-3obnLnNmS): This file contains our 4.2m dataset. The details of this dataset is given in our paper as well as in [Dataset Description](https://github.com/code-desc/CoDesc/blob/master/Dataset%20Description.md) page.
 
-2. [Original_data](https://mega.nz/file/ZpoBla5a#qeSxMXP6v-2FEI237cIVrFhuqnq5DHh88_EKuReSY3k): This file contains the source data from where we have collected and preprocessed our 4.2m dataset.
+2. [Original_data](https://drive.google.com/file/d/1cRBRNPQ9eAaSchABoUa5ng_woWR6P3P_): This file contains the source data from where we have collected and preprocessed our 4.2m dataset.
 
-3. [CSN_preprocessed_data](https://mega.nz/file/Q4oxQCIb#CT7P5zq1WbiWOLTeafg-mFD2QZEmF1YwZmDhGZkzU90): This file contains the preprocessed data for CodeSearchNet challenge. Here test and validation sets are the preprocessed datapoints from CodeSearchNet original test and validation sets.
+3. [CSN_preprocessed_data](https://drive.google.com/file/d/1z1ISkUkNC-ZStMivdU2poXAoh9OjooQw): This file contains the preprocessed data for CodeSearchNet challenge. Here test and validation sets are the preprocessed datapoints from CodeSearchNet original test and validation sets.
 
-4. [CSN_preprocessed_data_balanced_partition](https://mega.nz/file/t543VCyA#4BLjB28yYNDT9kXBs6NWmY1ADOCMyuvqDXLg9yPhiaI): This file contains the preprocessed data for CodeSearchNet networks. Here train, test, and validation sets are from our balanced partition described in our paper
+4. [CSN_preprocessed_data_balanced_partition](https://drive.google.com/file/d/1NKHb_mCH345NXcMFUBw5SxOgki8N5wsO): This file contains the preprocessed data for CodeSearchNet networks. Here train, test, and validation sets are from our balanced partition described in our paper
 
-5. [NCS_preprocessed_data](https://mega.nz/file/45BXRSSb#sj2bSC9AHxralmpAud6Uy1_g6HOFnZq0Dk4pfqiP-1M): This file contains the preprocessed data for neural code summarization networks.
+5. [NCS_preprocessed_data](https://drive.google.com/file/d/1bjAkUMBTXs42lXjrDycqdVJYSrDkmirB): This file contains the preprocessed data for neural code summarization networks.
 
-6. [BPE_Tokenized_NCS_preprocessed_data](https://drive.google.com/file/d/14nHVljNMb37-tpOW59NaDY26T6z2BcXD/view?usp=sharing): This file contains the preprocessed data for neural code summarization networks with BPE tokenization.
+6. [BPE_Tokenized_NCS_preprocessed_data](https://drive.google.com/file/d/14nHVljNMb37-tpOW59NaDY26T6z2BcXD): This file contains the preprocessed data for neural code summarization networks with BPE tokenization.
 
 ## Python to Java Translation
 We have created a forked repository of [Transcoder](https://github.com/code-desc/TransCoder.git) that facillicates parallel translation of source codes and speeds up the process by 16 times. Instructions to use Transcoder can be found in the above mentioned repository. The original work is published under the title ["Unsupervised Translation of Programming Languages"](https://arxiv.org/abs/2006.03511).
