@@ -2,8 +2,6 @@
 
 This is the public release of code, and data of our paper titled [_"CoDesc: A Large Code–Description Parallel Dataset"_](https://aclanthology.org/2021.findings-acl.18/) published in the Findings of ACL 2021.
 
-## This is the anonymous repository for blind review and this is no longer active. Please visit: https://github.com/csebuetnlp/CoDesc for updated code and dataset.
-
 A large dataset of 4.2m Java source code and parallel data of their description from code search, and code summarization studies.
 
 
