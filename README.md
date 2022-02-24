@@ -44,7 +44,7 @@ CoDesc is a noise removed, large parallel dataset of source codes and correspond
 # CoDesc Dataset
 After initial setup described at [Quickstart](#quickstart), our dataset will be downloaded at `data/` folder along with preprocessed data for code search task and code summarization task. We also provide the source datasets here. Following are the links and descriptions of the dataset and preprocessed data.
 
-1. [CoDesc](https://drive.google.com/file/d/14t7fYsW0a09mfBmFJhjsZv-3obnLnNmS): This file contains our 4.2m dataset. The details of this dataset is given in our paper as well as in [Dataset Description](https://github.com/code-desc/CoDesc/blob/master/Dataset%20Description.md) page.
+1. [CoDesc](https://drive.google.com/file/d/14t7fYsW0a09mfBmFJhjsZv-3obnLnNmS): This file contains our 4.2m dataset. The details of this dataset is given in our paper as well as in [Dataset Description](https://github.com/csebuetnlp/CoDesc/blob/master/Dataset%20Description.md) page.
 
 2. [Original_data](https://drive.google.com/file/d/1cRBRNPQ9eAaSchABoUa5ng_woWR6P3P_): This file contains the source data from where we have collected and preprocessed our 4.2m dataset.
 
@@ -57,7 +57,7 @@ After initial setup described at [Quickstart](#quickstart), our dataset will be 
 6. [BPE_Tokenized_NCS_preprocessed_data](https://drive.google.com/file/d/14nHVljNMb37-tpOW59NaDY26T6z2BcXD): This file contains the preprocessed data for neural code summarization networks with BPE tokenization.
 
 ## Python to Java Translation
-We have created a forked repository of [Transcoder](https://github.com/code-desc/TransCoder.git) that facillicates parallel translation of source codes and speeds up the process by 16 times. Instructions to use Transcoder can be found in the above mentioned repository. The original work is published under the title ["Unsupervised Translation of Programming Languages"](https://arxiv.org/abs/2006.03511).
+We have created a forked repository of [Transcoder](https://github.com/csebuetnlp/TransCoder.git) that facillicates parallel translation of source codes and speeds up the process by 16 times. Instructions to use Transcoder can be found in the above mentioned repository. The original work is published under the title ["Unsupervised Translation of Programming Languages"](https://arxiv.org/abs/2006.03511).
 
 ## CoDesc Dataset Creation
 As we have already mentioned, we have provided the original data from sources to the `data/original_data/` folder. To create the 4.2m CoDesc dataset from original data, the following command should be used.
@@ -94,7 +94,7 @@ The code for bpe tokenization is given at `Tokenizer/huggingface_bpe.py`.
 
 
 # Code Search
-During the initial setup described at [Quickstart](#quickstart), a forked version of [CodeSearchNet](https://github.com/code-desc/CodeSearchNet.git) is cloned into the working directory, and the preprocessed data of CoDesc will be copied to `CodeSearchNet/resources/data/` directory. To use the preprocessed dataset of balanced partition, clear the above mentioned folder, and copy the content inside of `data/csn_preprocessed_data_balanced_partition/` into it.
+During the initial setup described at [Quickstart](#quickstart), a forked version of [CodeSearchNet](https://github.com/csebuetnlp/CodeSearchNet.git) is cloned into the working directory, and the preprocessed data of CoDesc will be copied to `CodeSearchNet/resources/data/` directory. To use the preprocessed dataset of balanced partition, clear the above mentioned folder, and copy the content inside of `data/csn_preprocessed_data_balanced_partition/` into it.
 
 Then the following commands will train and test code search networks:
  ```bash
@@ -111,7 +111,7 @@ Then the following commands will train and test code search networks:
  ```
 
 # Code Summarization
-We used the original implementation of Code Summarization of [NeuralCodeSum](https://github.com/wasiahmad/NeuralCodeSum.git). Please refer to [this guide](https://github.com/code-desc/CoDesc/blob/master/CodeSummarization/README.md) for instructions on how to train the code summarization network.
+We used the original implementation of Code Summarization of [NeuralCodeSum](https://github.com/wasiahmad/NeuralCodeSum.git). Please refer to [this guide](https://github.com/csebuetnlp/CoDesc/blob/master/CodeSummarization/README.md) for instructions on how to train the code summarization network.
 
 
 # Cite this work
@@ -140,4 +140,4 @@ We used the original implementation of Code Summarization of [NeuralCodeSum](htt
 
 # Licenses
 Codes, dataset and models from [CodeSearchNet](https://github.com/github/CodeSearchNet.git), and [NeuralCodeSum](https://github.com/wasiahmad/NeuralCodeSum.git) are used with the licenses provided at their respective repositories.   
-These codes, dataset, and preprocessed data are released under the [MIT license](https://github.com/code-desc/CoDesc/blob/master/LICENSE).
+These codes, dataset, and preprocessed data are released under the [MIT license](https://github.com/csebuetnlp/CoDesc/blob/master/LICENSE).
