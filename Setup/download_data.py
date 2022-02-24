@@ -23,7 +23,7 @@ gdown.download("https://drive.google.com/uc?id=1bjAkUMBTXs42lXjrDycqdVJYSrDkmirB
 print("ncs_preprocessed_data.7z downloaded")
 os.system("7z x ncs_preprocessed_data.7z")
 
-gdown.download("https://drive.google.com/uc?id=14nHVljNMb37-tpOW59NaDY26T6z2BcXD&export=download&confirm=t", "original_data.7z", quiet=False) 
+gdown.download("https://drive.google.com/uc?id=1cRBRNPQ9eAaSchABoUa5ng_woWR6P3P_&export=download&confirm=t", "original_data.7z", quiet=False) 
 print("original_data.7z downloaded")
 os.system("7z x original_data.7z")
 
