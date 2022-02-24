@@ -27,7 +27,7 @@ A large dataset of 4.2m Java source code and parallel data of their description 
 # Quickstart
   ```bash
   # clone this repository
-  git clone https://github.com/code-desc/CoDesc.git
+  git clone https://github.com/csebuetnlp/CoDesc.git
   
   # change permission of scripts
   sudo chmod -R +x CoDesc
